@@ -55,7 +55,7 @@ Android APK（WebView 壳 + JSBridge）
 ## 移动端
 登录页/设置：手机端登录前即可通过左上角齿轮设置服务器地址
 手机端成员信息支持点击复制手机号 / 邮箱
-<img width="1440" height="3200" alt="微信图片_20260922144524_108_46" src="https://github.com/user-attachments/assets/3f190e6a-cf5a-4d8b-bf49-4d6546653442" /><img width="1280" height="2844" alt="微信图片_20260922144525_109_46" src="https://github.com/user-attachments/assets/c15f803c-ccf4-470d-a4d7-663a77db16c8" /><img width="1280" height="6316" alt="微信图片_20260922144526_110_46" src="https://github.com/user-attachments/assets/daaf9326-3aee-4de2-8321-a823a7b1541b" />
+<img width="288" height="640" alt="微信图片_20260922144524_108_46" src="https://github.com/user-attachments/assets/3f190e6a-cf5a-4d8b-bf49-4d6546653442" />  <img width="288" height="640" alt="微信图片_20260922144525_109_46" src="https://github.com/user-attachments/assets/c15f803c-ccf4-470d-a4d7-663a77db16c8" />
 
 ## 快速开始
 默认账号
@@ -145,5 +145,5 @@ JWT 默认 24 小时过期，生产环境请更换 JWT_SECRET。
 本项目未指定开源许可证，随意商用将承担法律责任。
 
 # 支持与联系
-<img width="1279" height="1743" alt="微信图片_20260922180958_111_46" src="https://github.com/user-attachments/assets/f78c4e7e-8019-47f7-a197-5cec783e84c5" />
+<img width="256" height="349" alt="微信图片_20260922180958_111_46" src="https://github.com/user-attachments/assets/f78c4e7e-8019-47f7-a197-5cec783e84c5" />
 邮箱：sir@zknu.cn
