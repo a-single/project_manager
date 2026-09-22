@@ -1,0 +1,140 @@
+/* ============ 全局主题：配色 + 纹理效果 ============ */
+
+:root {
+  /* 主色（靛蓝） */
+  --el-color-primary: #6ea8fe;
+  --el-color-primary-light-3: #93bdff;
+  --el-color-primary-light-5: #b7d3ff;
+  --el-color-primary-light-7: #d1e3ff;
+  --el-color-primary-light-8: #dfecff;
+  --el-color-primary-light-9: #edf4ff;
+  --el-color-primary-dark-2: #5688d6;
+
+  /* 框架色微调 */
+  --el-border-radius-base: 8px;
+  --el-border-radius-small: 6px;
+  --el-border-color-lighter: rgba(15, 23, 42, 0.08);
+
+  /* 文字 */
+  --app-text-main: #1e293b;
+  --app-text-sub: #64748b;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* ============ 页面背景纹理：浅色渐变 + 细微网格 ============ */
+body {
+  color: var(--app-text-main);
+}
+
+/* ============ 卡片：圆角 + 柔和蓝色投影 ============ */
+.el-card {
+  border-radius: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(110, 168, 254, 0.08);
+  overflow: hidden;
+}
+
+.el-card.shadow-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.el-card.shadow-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(110, 168, 254, 0.18), 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.el-card .el-card__header {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+  font-weight: 600;
+  color: var(--app-text-main);
+}
+
+/* ============ 按钮：统一圆角 ============ */
+.el-button {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.el-button--primary {
+  background: linear-gradient(135deg, #6ea8fe, #93b8ff);
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(110, 168, 254, 0.28);
+}
+
+.el-button--primary:hover {
+  background: linear-gradient(135deg, #3f5ee6, #2f6bee);
+  border-color: transparent;
+}
+
+.el-button--success {
+  background: linear-gradient(135deg, #22c55e, #10b981);
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.25);
+}
+
+/* ============ 弹窗：大圆角 + 深投影 ============ */
+.el-dialog {
+  border-radius: 16px;
+  box-shadow: 0 24px 64px rgba(15, 23, 42, 0.28);
+}
+
+.el-dialog__header {
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+
+/* ============ 表格：表头浅蓝底 ============ */
+.el-table th.el-table__cell {
+  background-color: #f6f8ff;
+  color: #475569;
+  font-weight: 600;
+}
+
+.el-table {
+  --el-table-header-bg-color: #f6f8ff;
+  --el-table-border-color: rgba(15, 23, 42, 0.07);
+  border-radius: 10px;
+}
+
+/* ============ 输入框：聚焦主色光晕 ============ */
+.el-input__wrapper,
+.el-textarea__inner {
+  border-radius: 8px !important;
+}
+
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px var(--el-color-primary) inset,
+    0 0 0 3px rgba(110, 168, 254, 0.12) !important;
+}
+
+/* ============ 下拉/日期：圆角 ============ */
+.el-select__wrapper {
+  border-radius: 8px !important;
+}
+
+.el-select-dropdown__item.is-selected {
+  color: var(--el-color-primary);
+}
+
+/* ============ 弹窗内 el-empty 排版微调 ============ */
+.el-empty {
+  padding: 24px 0;
+}
+
+/* ============ 滚动条美化 ============ */
+.el-scrollbar__bar.is-horizontal > div,
+.el-scrollbar__bar.is-vertical > div {
+  background-color: rgba(110, 168, 254, 0.35);
+}
+
+/* ============ 通知角标 ============ */
+.el-badge__content {
+  border: 1px solid #fff;
+}
