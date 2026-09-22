@@ -142,7 +142,7 @@ JWT 默认 24 小时过期，生产环境请更换 JWT_SECRET。
 手机端 Web 与 APK 共用后端地址。
 
 # License
-本项目未指定开源许可证，随意商用将承担法律责任。
+本项目遵守开源协定，随意商用将承担法律责任。
 
 # 支持与联系
 <img width="256" height="349" alt="微信图片_20260922180958_111_46" src="https://github.com/user-attachments/assets/f78c4e7e-8019-47f7-a197-5cec783e84c5" />
